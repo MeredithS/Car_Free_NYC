@@ -3,6 +3,7 @@ class SocailHandlesController < ApplicationController
 	end
 
 	def new
+		@socialHandle = SocialHandle.new
 	end
 
 	def create
