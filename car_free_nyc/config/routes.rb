@@ -5,11 +5,20 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
    root 'welcome#root'
 
-  shallow do 
+  shallow do
    resources :users, only: [:index, :new, :create] do
     resources :social_handles, only: [:index, :create, :new]
     end
   end
+
+  get '/car_free_nyc' => 'welcome#root'
+  get '/pledge' => 'users#new'
+  post 'created_pledge' => 'users#create'
+  get '/pledge_confirmation' => 'users#index'
+  get '/sponsors' => 'welcome#sponsors'
+
+  #s till need to add user sessions for private view of data
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
