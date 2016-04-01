@@ -1,6 +1,11 @@
 class UsersController < ApplicationController
+	
 	def index
-		@users = User.all
+		@users = User.all.order("date desc")
+		respond_to do |format|
+			format.html
+			format.xlsx
+		end
 	end
 
 	def new

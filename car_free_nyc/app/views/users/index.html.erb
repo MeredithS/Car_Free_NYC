@@ -1,0 +1,8 @@
+<h1>Earth Day Pledges</h1>
+<ul>
+	<%@users.each do |user|%>
+		<li><p><%=user.f_name%> from <%=user.org%> pledges to <%=user.commitment%></p></li>
+	<%end%>
+</ul>
+
+<%= link_to "download as Excel", users_path(format: "xlsx")%>
