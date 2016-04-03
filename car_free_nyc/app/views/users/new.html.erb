@@ -5,7 +5,7 @@
 	<%=f.text_field :l_name%>
 	<%=f.label(:e_mail,"E-mail")%>
 	<%=f.text_field :e_mail%>
-	<%=f.label(:commitment, "Pledge")%>
+	<%=f.label(:commitment, "I pledge to")%>
 	<%=f.text_area :commitment%>
 	<%=f.label(:org, "Organization")%>
 	<%=f.text_field :org%>
@@ -17,7 +17,7 @@
 			<%=social_handle_field.label(:instagram, "Instagram")%>
 			<%=social_handle_field.text_field :instagram%>
 		<%end%>
-	<%= check_box_tag :share_info?, value="1", true %>
-	<%= label(:share_info?, "Share my contact information with partners Earth Day Initiative and General Assembly to stay up to date about their programs and events.") %>
+	<%= check_box_tag(:share_info?)%>
+	<%= label_tag(:share_info?, "Share my contact information with partners Earth Day Initiative and General Assembly to stay up to date about their programs and events.") %>
 	<%=f.submit "Submit"%>
 <%end%>
