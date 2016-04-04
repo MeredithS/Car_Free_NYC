@@ -9,6 +9,8 @@
 	<%=f.text_area :commitment%>
 	<%=f.label(:org, "Organization")%>
 	<%=f.text_field :org%>
+	<%=f.select :info, [["Yes"],["No"]] %>
+	<%=f.label(:info, "Share my contact information with partners Earth Day Initiative and General Assembly to stay up to date about their programs and events.") %>
 		<%=fields_for :social_handle do |social_handle_field|%>
 			<%=social_handle_field.label(:twitter, "Twitter Handle")%>
 			<%=social_handle_field.text_field :twitter%>
@@ -17,7 +19,5 @@
 			<%=social_handle_field.label(:instagram, "Instagram")%>
 			<%=social_handle_field.text_field :instagram%>
 		<%end%>
-	<%= check_box_tag(:share_info?)%>
-	<%= label_tag(:share_info?, "Share my contact information with partners Earth Day Initiative and General Assembly to stay up to date about their programs and events.") %>
 	<%=f.submit "Submit"%>
 <%end%>
