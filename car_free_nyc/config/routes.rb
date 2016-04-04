@@ -11,12 +11,19 @@ Rails.application.routes.draw do
     end
   end
 
+  resources :admins, only: [:new, :create, :index]
+  resources :sessions, only: [:new, :create, :destroy]
+
   get '/car_free_nyc' => 'welcome#root'
   get '/pledge' => 'users#new'
   post 'created_pledge' => 'users#create'
   get '/pledge_confirmation' => 'users#index'
   get '/sponsors' => 'welcome#sponsors'
-
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
+  get '/logout' => 'sessions#destroy'
+  get '/data' => 'admins#index'
+  post '/admins/create' => 'admins#create'
   #s till need to add user sessions for private view of data
 
 
