@@ -13,7 +13,7 @@ class UsersController < ApplicationController
 	end
 
 	def create
-		@user = User.new user_params
+		@user = User.create user_params
 		@user.date = DateTime.now
 		if @user.save
 			@user.social_handles.create social_params
