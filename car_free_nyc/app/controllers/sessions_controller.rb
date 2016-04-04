@@ -1,4 +1,4 @@
-class SessionsController <ApplicationController	
+class SessionsController <ApplicationController
 	def new
 		if session[:admin_id]
 			redirect_to admins_url
@@ -12,7 +12,7 @@ class SessionsController <ApplicationController
 			session[:admin_id] = admin.id
 			flash[:notice] = "Great Job signing in welcome"
 			redirect_to admins_url
-		else 
+		else
 			flash[:notice] = "Incorrect e-mail and/or password. Please try again."
 			render :new
 		end
