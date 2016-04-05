@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	console.log("Hello world");
-	// setInterval(getNewPledges, 1000);
+	// setInterval(getNewPledges, 5000);
 
 });
 
