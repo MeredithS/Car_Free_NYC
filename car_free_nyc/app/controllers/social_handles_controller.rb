@@ -1,12 +1,13 @@
-class SocailHandlesController < ApplicationController
-	def index
-	end
+class SocialHandlesController < ApplicationController
+	# before_action :counter
+	# def index
+	# end
 
-	def new
-		@socialHandle = SocialHandle.new
-	end
+	# def new
+	# 	@socialHandle = SocialHandle.new
+	# end
 
-	def create
-	end
+	# def create
+	# end
 	
 end

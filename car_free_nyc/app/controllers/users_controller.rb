@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+	before_action :counter
 
 	def index
 		@users = User.all.order("date desc")
@@ -33,3 +34,7 @@ private
 	def social_params
 		params.require(:social_handle).permit(:twitter, :facebook, :instagram)
 	end
+
+	# def counter
+ #    @counter = Users.all.length
+ #  end
