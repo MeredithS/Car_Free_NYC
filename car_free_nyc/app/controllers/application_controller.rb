@@ -13,4 +13,7 @@ class ApplicationController < ActionController::Base
     redirect_to login_url unless current_user
   end
 
+  def counter
+    @counter = User.all.length
+  end
 end

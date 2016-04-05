@@ -1,5 +1,6 @@
 class AdminsController <ApplicationController
 	before_action :authorize
+	before_action :counter
 
 	def new
 		@admin=Admin.new
