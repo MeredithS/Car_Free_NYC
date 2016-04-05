@@ -1,42 +1,88 @@
 <%= stylesheet_link_tag "application" %>
 <div class="container">
-	<div class="row">
-		<%=form_for @user do |f|%>
-	<%=f.label(:f_name, "First Name")%>
-	<%=f.text_field :f_name%>
-	</div>
-	<div class="row">
-	<%=f.label(:l_name, "Last Name")%>
-	<%=f.text_field :l_name%>
-</div>
-<div class="row">
-	<%=f.label(:e_mail,"E-mail")%>
-	<%=f.text_field :e_mail%>
-</div>
-<div class="row">
-	<%=f.label(:commitment, "I pledge to")%>
-	<%=f.text_area :commitment%>
-</div>
-<div class="row">
-	<%=f.label(:org, "Organization")%>
-	<%=f.text_field :org%>
-</div>
-<div class="row">
-	<%=f.label(:info, "Share my contact information with partners Earth Day Initiative and General Assembly to stay up to date about their programs and events.") %>
-	<%=f.select :info, [["Yes"],["No"]] %>
-</div>
-<div class="row">
-		<%=fields_for :social_handle do |social_handle_field|%>
-			<%=social_handle_field.label(:twitter, "Twitter Handle")%>
-			<%=social_handle_field.text_field :twitter%>
-			<%=social_handle_field.label(:facebook, "Facebook Page")%>
-			<%=social_handle_field.text_field :facebook%>
-			<%=social_handle_field.label(:instagram, "Instagram")%>
-			<%=social_handle_field.text_field :instagram%>
-		<%end%>
-	</div>
-	<div class="row">
-	<%=f.submit "Submit"%>
-<%end%>
-</div>
+	<form>
+		<div class="row">
+	  	<div class="form-group">
+	  		<div class="col-md-4">
+					<%=form_for @user do |f|%>
+						<%=f.label(:f_name, "First Name", class: 'required') %>
+						<%=f.text_field :f_name, class: 'form-control'%>
+					</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-group">
+				<div class="col-md-4">
+						<%=f.label(:l_name, "Last Name", class: 'required')%>
+						<%=f.text_field :l_name, class: 'form-control' %>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-group">
+				<div class="col-md-4">
+						<%=f.label(:e_mail,"E-mail", class: 'required')%>
+						<%=f.text_field :e_mail, class: 'form-control' %>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-group">
+				<div class="col-md-12">
+						<%=f.label(:commitment, "I pledge to", class: 'required')%>
+						<%=f.text_area :commitment, class: 'form-control', rows: '3' %>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-group">
+				<div class="col-md-4">
+						<%=f.label(:org, "Organization")%>
+						<%=f.text_field :org, class: 'form-control' %>
+				</div>
+			</div>	
+		</div>
+		<div class="row">
+			<div class="form-group">
+				<div class="col-md-4">
+						<%=fields_for :social_handle do |social_handle_field|%>
+							<%=social_handle_field.label(:twitter, "Twitter Handle")%>
+							<%=social_handle_field.text_field :twitter, class: 'form-control' %>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-group">
+				<div class="col-md-4">
+							<%=social_handle_field.label(:facebook, "Facebook Page")%>
+							<%=social_handle_field.text_field :facebook, class: 'form-control' %>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-group">
+				<div class="col-md-4">
+							<%=social_handle_field.label(:instagram, "Instagram")%>
+							<%=social_handle_field.text_field :instagram, class: 'form-control' %>
+						<%end%>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-group">
+				<div class="col-md-12">
+						<%=f.label(:info, "Share my contact information with partners Earth Day Initiative and General Assembly to stay up to date about their programs and events.", class: 'space') %>
+						<%=f.select :info, [["Yes"],["No"]] %>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="form-group">
+				<div class="col-md-4">
+					<%=f.submit "Submit", class: 'btn btn-default' %>
+				</div>
+			</div>
+		</div>
+			<%end%>
+	</form>
 </div>
