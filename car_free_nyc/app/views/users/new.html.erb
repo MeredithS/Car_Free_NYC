@@ -1,16 +1,31 @@
-<%=form_for @user do |f|%>
+<%= stylesheet_link_tag "application" %>
+<div class="container">
+	<div class="row">
+		<%=form_for @user do |f|%>
 	<%=f.label(:f_name, "First Name")%>
 	<%=f.text_field :f_name%>
+	</div>
+	<div class="row">
 	<%=f.label(:l_name, "Last Name")%>
 	<%=f.text_field :l_name%>
+</div>
+<div class="row">
 	<%=f.label(:e_mail,"E-mail")%>
 	<%=f.text_field :e_mail%>
+</div>
+<div class="row">
 	<%=f.label(:commitment, "I pledge to")%>
 	<%=f.text_area :commitment%>
+</div>
+<div class="row">
 	<%=f.label(:org, "Organization")%>
 	<%=f.text_field :org%>
-	<%=f.select :info, [["Yes"],["No"]] %>
+</div>
+<div class="row">
 	<%=f.label(:info, "Share my contact information with partners Earth Day Initiative and General Assembly to stay up to date about their programs and events.") %>
+	<%=f.select :info, [["Yes"],["No"]] %>
+</div>
+<div class="row">
 		<%=fields_for :social_handle do |social_handle_field|%>
 			<%=social_handle_field.label(:twitter, "Twitter Handle")%>
 			<%=social_handle_field.text_field :twitter%>
@@ -19,5 +34,9 @@
 			<%=social_handle_field.label(:instagram, "Instagram")%>
 			<%=social_handle_field.text_field :instagram%>
 		<%end%>
+	</div>
+	<div class="row">
 	<%=f.submit "Submit"%>
 <%end%>
+</div>
+</div>
