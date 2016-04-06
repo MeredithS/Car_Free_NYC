@@ -10,7 +10,7 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
+ 
  *= require_self
  */
 
@@ -18,11 +18,4 @@ body {
   padding-top: 200px;
 font-family: 'Nunito', sans-serif;
 }
-label.required:after {
-    content: " *";
-    color: red;
-}
-.space {
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
+

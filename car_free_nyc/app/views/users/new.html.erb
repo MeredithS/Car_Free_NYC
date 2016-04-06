@@ -1,41 +1,46 @@
-<%= stylesheet_link_tag "application" %>
-<div class="container">
-	
+<<%= stylesheet_link_tag "new_user" %>
+<div class="form-holder">
+	<h1>Make a Pledge!</h1>
 	<form>
 		<div class="row">
+			<div class="col-md-4"></div>
 	  	<div class="form-group">
 	  		<div class="col-md-4">
 					<%=form_for @user do |f|%>
 						<%=f.label(:f_name, "First Name", class: 'required') %>
-						<%=f.text_field :f_name, class: 'form-control'%>
+						<%=f.text_field :f_name, class: 'form-control', :required => true %>
 					</div>
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-md-4"></div>
 			<div class="form-group">
 				<div class="col-md-4">
 						<%=f.label(:l_name, "Last Name", class: 'required')%>
-						<%=f.text_field :l_name, class: 'form-control' %>
+						<%=f.text_field :l_name, class: 'form-control', :required => true %>
 				</div>
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-md-4"></div>
 			<div class="form-group">
 				<div class="col-md-4">
 						<%=f.label(:e_mail,"E-mail", class: 'required')%>
-						<%=f.text_field :e_mail, class: 'form-control' %>
+						<%=f.text_field :e_mail, class: 'form-control', :required => true %>
 				</div>
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-md-4"></div>
 			<div class="form-group">
-				<div class="col-md-12">
+				<div class="col-md-4">
 						<%=f.label(:commitment, "I pledge to", class: 'required')%>
-						<%=f.text_area :commitment, class: 'form-control', rows: '3' %>
+						<%=f.text_area :commitment, class: 'form-control', rows: '5', :required => true %>
 				</div>
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-md-4"></div>
 			<div class="form-group">
 				<div class="col-md-4">
 						<%=f.label(:org, "Organization")%>
@@ -44,6 +49,7 @@
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-md-4"></div>
 			<div class="form-group">
 				<div class="col-md-4">
 						<%=fields_for :social_handle do |social_handle_field|%>
@@ -53,6 +59,7 @@
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-md-4"></div>
 			<div class="form-group">
 				<div class="col-md-4">
 							<%=social_handle_field.label(:facebook, "Facebook Page")%>
@@ -61,6 +68,7 @@
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-md-4"></div>
 			<div class="form-group">
 				<div class="col-md-4">
 							<%=social_handle_field.label(:instagram, "Instagram")%>
@@ -71,13 +79,15 @@
 		</div>
 		<div class="row">
 			<div class="form-group">
-				<div class="col-md-12">
+				<div class="col-md-4"></div>
+				<div class="col-md-8 drop-down">
 						<%=f.label(:info, "Share my contact information with partners Earth Day Initiative and General Assembly to stay up to date about their programs and events.", class: 'space') %>
 						<%=f.select :info, [["Yes"],["No"]] %>
 				</div>
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-md-4"></div>
 			<div class="form-group">
 				<div class="col-md-4">
 					<%=f.submit "Submit", class: 'btn btn-default' %>
