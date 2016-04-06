@@ -35,6 +35,3 @@ private
 		params.require(:social_handle).permit(:twitter, :facebook, :instagram)
 	end
 
-	# def counter
- #    @counter = Users.all.length
- #  end
