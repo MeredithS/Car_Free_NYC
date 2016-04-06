@@ -1,15 +1,16 @@
 <%= stylesheet_link_tag "application" %>
 <div class="container">
 	<div class="row">
-		<h1>Earth Day Pledges</h1>
+<h1>Earth Day Pledges</h1>
+</div>
+<div class="row">
+<ul>
+	<%@users.each do |user|%>
+		<div class="row">
+		<li><p><%=user.f_name%> from <%=user.org%> pledges to <%=user.commitment%></p></li>
 	</div>
-	<div class="row">
-		<ul>
-			<%@users.each do |user|%>
-				<div class="row">
-					<li><p><%=user.f_name%> from <%=user.org%> pledges to <%=user.commitment%></p></li>
-				</div>
-			<%end%>
-		</ul>
-	</div>
+	<%end%>
+
+</ul>
+</div>
 </div>
