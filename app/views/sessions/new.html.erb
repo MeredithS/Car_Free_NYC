@@ -1,0 +1,26 @@
+<div class="container">
+  <body>
+  <div class="row">
+    <h1>Admin Login</h1>
+  </div>
+  <div class="row">
+<%= form_for '/login', url:{action: "create"} do |f| %>
+      <%=f.label :username %>
+      <%=f.text_field :username %>
+  </div>
+  <div class="row">
+      <%=f.label :password %>
+      <%=f.password_field :password %>
+  </div>
+  <div class="row">
+      <%=f.submit "Sign In" %>
+      <% end %>
+  </div>
+  <div class="row">
+    <%= link_to 'Back', users_path %>
+  </div>
+  <div class="row">
+    <%= link_to "logout", logout_url %>
+  </div>
+</body>
+</div>
