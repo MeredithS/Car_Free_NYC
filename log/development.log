@@ -18517,3 +18517,775 @@ Completed 200 OK in 21ms (Views: 17.8ms | ActiveRecord: 0.7ms)
 
 
 Started GET "/assets/Car%20Free%20Flier.jpg" for ::1 at 2016-04-06 17:27:22 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-06 17:28:19 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (40.7ms)
+Completed 200 OK in 102ms (Views: 73.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/CFD%20Logo.jpg" for ::1 at 2016-04-06 17:28:20 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:28:25 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 40ms (Views: 35.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:28:26 -0400
+
+
+Started GET "/pledge_confirmation" for ::1 at 2016-04-06 17:28:34 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (3.2ms)[0m  SELECT "users".* FROM "users"  ORDER BY date desc
+  Rendered users/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 31ms (Views: 22.2ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:28:36 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 28ms (Views: 25.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:31:53 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (1.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (43.6ms)
+Completed 200 OK in 87ms (Views: 66.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/new_user.self-a50648f585551f5ebb863be1b2deab05f9b6471e8fa474b5e5da47f41c47d76b.css?body=1" for ::1 at 2016-04-06 17:31:54 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:32:38 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 88ms (Views: 84.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/new_user.self-a50648f585551f5ebb863be1b2deab05f9b6471e8fa474b5e5da47f41c47d76b.css?body=1" for ::1 at 2016-04-06 17:32:39 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:32:58 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 109ms (Views: 106.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/new_user.self-a50648f585551f5ebb863be1b2deab05f9b6471e8fa474b5e5da47f41c47d76b.css?body=1" for ::1 at 2016-04-06 17:32:58 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:39:50 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (42.5ms)
+Completed 200 OK in 89ms (Views: 66.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.self-28d035ced8f4319868997fbc071d1b97d3535c988c9d57ee6a5c71b789243c31.css?body=1" for ::1 at 2016-04-06 17:39:51 -0400
+
+
+Started GET "/assets/new_user.self-a50648f585551f5ebb863be1b2deab05f9b6471e8fa474b5e5da47f41c47d76b.css?body=1" for ::1 at 2016-04-06 17:39:51 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:39:51 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:40:12 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 38ms (Views: 33.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-eb6967acd2e29c66c33e1b77b256ba5eafe85b13afa2ec435111b552f86c676f.css?body=1" for ::1 at 2016-04-06 17:40:12 -0400
+
+
+Started GET "/assets/new_user.self-a50648f585551f5ebb863be1b2deab05f9b6471e8fa474b5e5da47f41c47d76b.css?body=1" for ::1 at 2016-04-06 17:40:12 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-06 17:43:03 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 66ms (Views: 43.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/CFD%20Logo.jpg" for ::1 at 2016-04-06 17:43:03 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-06 17:45:35 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (1.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (134.4ms)
+Completed 200 OK in 178ms (Views: 157.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.self-b2a0385dccae9fbda08bf5024b294b23ea017b7151384a28d12d25763f1883f0.css?body=1" for ::1 at 2016-04-06 17:45:35 -0400
+
+
+Started GET "/assets/CFD%20Logo.jpg" for ::1 at 2016-04-06 17:45:35 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-06 17:45:51 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (117.1ms)
+Completed 200 OK in 128ms (Views: 124.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:45:52 -0400
+
+
+Started GET "/assets/CFD%20Logo.jpg" for ::1 at 2016-04-06 17:45:52 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:46:23 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:46:24 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:47:31 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (114.8ms)
+Completed 200 OK in 134ms (Views: 129.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:47:32 -0400
+
+
+Started GET "/assets/new_user.self-3eaa42ff56c673323149defa837317259aa4f3e0340e0926467a3a6166404ce6.css?body=1" for ::1 at 2016-04-06 17:47:32 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:47:32 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:47:44 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (1.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (86.8ms)
+Completed 200 OK in 104ms (Views: 100.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/new_user.self-7f55ec2eaac55a025b958a16c4d2ad044237c8f02af3cda8594285af7ae66ccc.css?body=1" for ::1 at 2016-04-06 17:47:45 -0400
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:47:45 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:47:45 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:48:40 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 27ms (Views: 22.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/new_user.self-7f55ec2eaac55a025b958a16c4d2ad044237c8f02af3cda8594285af7ae66ccc.css?body=1" for ::1 at 2016-04-06 17:48:40 -0400
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:48:40 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:49:12 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (51.8ms)
+Completed 200 OK in 62ms (Views: 59.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/new_user.self-3f4eae8cb9242d6c28664174d12695e191880994d167cc98c09ecc0d5fd64c24.css?body=1" for ::1 at 2016-04-06 17:49:12 -0400
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:49:13 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:50:04 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (46.1ms)
+Completed 200 OK in 56ms (Views: 53.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:50:04 -0400
+
+
+Started GET "/assets/new_user.self-3860b4448476f10be5c17f4717c0a594c090c320862e09fecfd0f842936c1e77.css?body=1" for ::1 at 2016-04-06 17:50:04 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:50:05 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:50:42 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:50:42 -0400
+
+
+Started GET "/assets/new_user.self-3860b4448476f10be5c17f4717c0a594c090c320862e09fecfd0f842936c1e77.css?body=1" for ::1 at 2016-04-06 17:50:42 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:51:07 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (60.1ms)
+Completed 200 OK in 75ms (Views: 71.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:51:08 -0400
+
+
+Started GET "/assets/new_user.self-1499b43135fc6726851693848dab69155d71d59eb3351e0984f72adf6e311c6e.css?body=1" for ::1 at 2016-04-06 17:51:08 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:51:08 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-06 17:52:05 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 19ms (Views: 15.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-06 17:52:05 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 22ms (Views: 18.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/CFD%20Logo.jpg" for ::1 at 2016-04-06 17:52:05 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:52:08 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 40ms (Views: 36.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:52:08 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:52:53 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (42.6ms)
+Completed 200 OK in 54ms (Views: 50.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:52:53 -0400
+
+
+Started GET "/assets/new_user.self-765662d5598690ca41f24d8293ba0ccbcc722f80e88edc9d0c20dfb49094b05e.css?body=1" for ::1 at 2016-04-06 17:52:53 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:52:53 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:53:45 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (70.3ms)
+Completed 200 OK in 82ms (Views: 79.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:53:46 -0400
+
+
+Started GET "/assets/new_user.self-1f28b03c4a14bb1036f4e15609672bc765565c47d671a7762b89af97e1d2c853.css?body=1" for ::1 at 2016-04-06 17:53:46 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:53:46 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-06 17:53:56 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/CFD%20Logo.jpg" for ::1 at 2016-04-06 17:53:56 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:53:59 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:53:59 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:54:20 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 59ms (Views: 54.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:54:20 -0400
+
+
+Started GET "/assets/new_user.self-96c52977e64bfc13305d805c8569c763f6485b7462806be8ad0ec4f6eaf04e83.css?body=1" for ::1 at 2016-04-06 17:54:20 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:54:20 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:54:30 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (47.0ms)
+Completed 200 OK in 59ms (Views: 55.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:54:31 -0400
+
+
+Started GET "/assets/new_user.self-886152b886ac1672db681c08c2cfacf4cd69796e3abbd6b849db16b4b12b20c4.css?body=1" for ::1 at 2016-04-06 17:54:31 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:54:31 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:54:47 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (137.6ms)
+Completed 200 OK in 151ms (Views: 147.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:54:47 -0400
+
+
+Started GET "/assets/new_user.self-721f1b8723d84d0bcd2e4a768aae6784eb1908a568c5d8ce3b82a4cede01a401.css?body=1" for ::1 at 2016-04-06 17:54:47 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:54:47 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:55:27 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (39.9ms)
+Completed 200 OK in 51ms (Views: 47.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:55:27 -0400
+
+
+Started GET "/assets/new_user.self-f5e983054dced446e3f2eff37b3427f095c3c8a9f34445bd102e96b4740799e0.css?body=1" for ::1 at 2016-04-06 17:55:27 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:55:28 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:55:38 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (47.9ms)
+Completed 200 OK in 59ms (Views: 55.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:55:38 -0400
+
+
+Started GET "/assets/new_user.self-d85a9af21fc7a6b6ac94193f496ad293970cfc7e277c9f1db49842be99cb8508.css?body=1" for ::1 at 2016-04-06 17:55:38 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:55:38 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-06 17:55:55 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/CFD%20Logo.jpg" for ::1 at 2016-04-06 17:55:55 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:56:02 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:56:02 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:56:19 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (40.4ms)
+Completed 200 OK in 51ms (Views: 48.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/new_user.self-d83fe24fd79f36304f17ff5cb264c910584b134beed5a1dfc17426b4df3d8c5b.css?body=1" for ::1 at 2016-04-06 17:56:19 -0400
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:56:19 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:56:20 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:56:27 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (40.7ms)
+Completed 200 OK in 51ms (Views: 48.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:56:27 -0400
+
+
+Started GET "/assets/new_user.self-a0f712d04049a2cf688f3ee9c867d5ad4837971e56ff7ba1560a3c828d6b0da4.css?body=1" for ::1 at 2016-04-06 17:56:27 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:56:27 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:56:39 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (31.4ms)
+Completed 200 OK in 40ms (Views: 38.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:56:39 -0400
+
+
+Started GET "/assets/new_user.self-d85a9af21fc7a6b6ac94193f496ad293970cfc7e277c9f1db49842be99cb8508.css?body=1" for ::1 at 2016-04-06 17:56:39 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:57:23 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (40.8ms)
+Completed 200 OK in 49ms (Views: 46.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:57:23 -0400
+
+
+Started GET "/assets/new_user.self-dc19eea9e501b03c6d8f56f23d833bf5d6e0daa135a593cce1ec2d6525861a87.css?body=1" for ::1 at 2016-04-06 17:57:23 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:57:24 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:57:42 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (42.8ms)
+Completed 200 OK in 52ms (Views: 49.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/new_user.self-e7bf566202e9efcb0469a1aebf76fbb7a9823e793ab08b61f5631afd5acb0fe2.css?body=1" for ::1 at 2016-04-06 17:57:42 -0400
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:57:42 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:57:42 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:57:58 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (40.2ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:57:59 -0400
+
+
+Started GET "/assets/new_user.self-0f30719408334218243b298a657b9f189e4e89f03b763c6df211b167aa4b2077.css?body=1" for ::1 at 2016-04-06 17:57:59 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:57:59 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:58:07 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (36.4ms)
+Completed 200 OK in 46ms (Views: 43.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:58:07 -0400
+
+
+Started GET "/assets/new_user.self-394aa6c28278bced4c09ca7988d6830c2074fcf2ada5c8fe3e94fefec61f5406.css?body=1" for ::1 at 2016-04-06 17:58:07 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:58:07 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:58:19 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (42.4ms)
+Completed 200 OK in 53ms (Views: 49.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/new_user.self-0ce482c7d2428c61401cf16bc34b3f382d20a823e2456d67a302112f059cec0c.css?body=1" for ::1 at 2016-04-06 17:58:19 -0400
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:58:19 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:58:19 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-06 17:58:21 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/CFD%20Logo.jpg" for ::1 at 2016-04-06 17:58:21 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:58:27 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:58:27 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:59:00 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (43.7ms)
+Completed 200 OK in 55ms (Views: 51.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:59:00 -0400
+
+
+Started GET "/assets/new_user.self-253111456051b5f9b25729e596b4517ce4012b828a4b8bfaa0a5a5342c95801d.css?body=1" for ::1 at 2016-04-06 17:59:00 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:59:00 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:59:15 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (40.8ms)
+Completed 200 OK in 50ms (Views: 47.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/new_user.self-ce52d3fc43bad413aed6ce8cf74a62d75663d3f5fcd47c2e763bed1bba31fd3f.css?body=1" for ::1 at 2016-04-06 17:59:15 -0400
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:59:15 -0400
+
+
+Started GET "/assets/congestion.png" for ::1 at 2016-04-06 17:59:15 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 17:59:43 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (43.4ms)
+Completed 200 OK in 55ms (Views: 52.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-7d73cb742821e613ee85391d54e26be909d9a54056385c8e9aba3e9a9496e320.css?body=1" for ::1 at 2016-04-06 17:59:44 -0400
+
+
+Started GET "/assets/new_user.self-0e39c39d7a3c6103a0fca3135ea848546877bf1cdd87516373a3e2e46455c6f8.css?body=1" for ::1 at 2016-04-06 17:59:44 -0400
+
+
+Started GET "/pledge_confirmation" for ::1 at 2016-04-06 18:00:33 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users"  ORDER BY date desc
+  Rendered users/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 25ms (Views: 18.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/sponsors" for ::1 at 2016-04-06 18:00:41 -0400
+Processing by WelcomeController#sponsors as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/sponsors.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 21ms (Views: 16.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/Car%20Free%20Flier.jpg" for ::1 at 2016-04-06 18:00:41 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 18:00:56 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (24.5ms)
+Completed 200 OK in 40ms (Views: 37.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-06 18:00:59 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 26ms (Views: 21.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/CFD%20Logo.jpg" for ::1 at 2016-04-06 18:00:59 -0400
+
+
+Started GET "/pledge_confirmation" for ::1 at 2016-04-06 18:01:02 -0400
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"  ORDER BY date desc[0m
+  Rendered users/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 33ms (Views: 28.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/sponsors" for ::1 at 2016-04-06 18:01:03 -0400
+Processing by WelcomeController#sponsors as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/sponsors.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 19ms (Views: 15.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/Car%20Free%20Flier.jpg" for ::1 at 2016-04-06 18:01:04 -0400
+
+
+Started GET "/pledge_confirmation" for ::1 at 2016-04-06 18:01:05 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (3.3ms)[0m  SELECT "users".* FROM "users"  ORDER BY date desc
+  Rendered users/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 19ms (Views: 13.2ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 18:01:07 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 27ms (Views: 23.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-06 18:01:08 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/CFD%20Logo.jpg" for ::1 at 2016-04-06 18:01:08 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-06 18:01:30 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (50.6ms)
+Completed 200 OK in 315ms (Views: 215.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/CFD%20Logo.jpg" for ::1 at 2016-04-06 18:01:32 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 18:01:33 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (3.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (37.5ms)
+Completed 200 OK in 68ms (Views: 54.9ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/pledge_confirmation" for ::1 at 2016-04-06 18:04:29 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (30.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users"  ORDER BY date desc
+  Rendered users/index.html.erb within layouts/application (33.7ms)
+Completed 200 OK in 225ms (Views: 57.7ms | ActiveRecord: 31.5ms)
+
+
+Started GET "/sponsors" for ::1 at 2016-04-06 18:04:31 -0400
+Processing by WelcomeController#sponsors as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/sponsors.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 41ms (Views: 36.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/Car%20Free%20Flier.jpg" for ::1 at 2016-04-06 18:04:31 -0400
+
+
+Started GET "/pledge_confirmation" for ::1 at 2016-04-06 18:04:49 -0400
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"  ORDER BY date desc[0m
+  Rendered users/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 23ms (Views: 17.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 18:04:53 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 32ms (Views: 29.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pledge" for ::1 at 2016-04-06 18:09:48 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (23.1ms)
+Completed 500 Internal Server Error in 484ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( root.css )` to `config/initializers/assets.rb` and restart your server):
+    17: <link href='https://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>
+    18:   </head>
+    19:   <%= stylesheet_link_tag "application" %>
+    20:   <%= stylesheet_link_tag "root" %>
+    21:   <div class="container">
+    22:     <nav class="navbar navbar-default navbar-fixed-top">
+    23:         <ul class="nav navbar-nav">
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb___3302351034431550486_70261060965720'
+
+
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.7ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.2ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (60.0ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (34.9ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (72.3ms)

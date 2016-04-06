@@ -20,7 +20,6 @@
  }
 
 body {
-  font-family: 'Nunito', sans-serif;
   z-index: 1;
   position: relative;
   color: black;
@@ -38,7 +37,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', end
 }
 
 div.container {
+  font-family: 'Nunito', sans-serif;
   position: static;
+  overflow-y: auto;
 }
 
 div.transcontain {
