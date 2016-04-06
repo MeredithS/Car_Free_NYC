@@ -17108,3 +17108,35 @@ Processing by WelcomeController#root as HTML
   [1m[36mUser Load (2.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
   Rendered welcome/root.html.erb within layouts/application (18.9ms)
 Completed 200 OK in 77ms (Views: 48.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2016-04-06 16:26:08 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (13.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (11.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (389.8ms)
+Completed 200 OK in 483ms (Views: 445.2ms | ActiveRecord: 14.6ms)
+
+
+Started GET "/assets/application.self-bb77763aeca0d523b11ee7c3a7178b66e99c5dac3fe4c6bf536729238999611f.css?body=1" for ::1 at 2016-04-06 16:26:09 -0400
+
+
+Started GET "/pledge_confirmation" for ::1 at 2016-04-06 16:26:14 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (23.2ms)[0m  SELECT "users".* FROM "users"  ORDER BY date desc
+  Rendered users/index.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 44ms (Views: 18.1ms | ActiveRecord: 23.7ms)
+
+
+Started GET "/sponsors" for ::1 at 2016-04-06 16:26:17 -0400
+Processing by WelcomeController#sponsors as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/sponsors.html.erb within layouts/application (42.8ms)
+Completed 200 OK in 53ms (Views: 51.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/sponsors.self-8b63a302d84e453f2a02ab164652c21057ca1dd27dbc2902f3c5523fa0753cd9.css?body=1" for ::1 at 2016-04-06 16:26:18 -0400
+
+
+Started GET "/assets/Car%20Free%20Flier.jpg" for ::1 at 2016-04-06 16:26:18 -0400
