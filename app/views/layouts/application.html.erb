@@ -16,7 +16,7 @@
     <!-- <script src="js/bootstrap.min.js"></script> -->
 <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
   </head>
-  <%= stylesheet_link_tag "application" %>
+  <!-- <%= stylesheet_link_tag "application" %> -->
   <div class="container">
     <nav class="navbar navbar-default navbar-fixed-top">
         <ul class="nav navbar-nav">
@@ -26,10 +26,12 @@
           <li><a href="/sponsors">Sponsors</a></li>
         </ul>
     </nav>
-    <body>
+    <h1 class="title">Car Free NYC</h1>
+    <div class="transcontain">
+  <body>
     <%=notice%>
     <%=yield%>
-
   </body>
+</div>
   </div>
 </html>
