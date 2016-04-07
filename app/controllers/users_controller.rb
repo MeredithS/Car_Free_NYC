@@ -14,10 +14,10 @@ class UsersController < ApplicationController
 	end
 
 	def create
+		binding.pry
 		@user = User.create user_params
 		@user.date = DateTime.now
 		@user.save
-		console.log(@user)
 		if @user.save
 			@user.social_handles.create social_params
 			flash[:notice] = "Thank you " + @user.f_name + " for your pledge!"
