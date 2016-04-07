@@ -11,10 +11,15 @@ class UsersController < ApplicationController
 
 	def new
 		@user=User.new
+		@user.make_public = true
+		@user.share_info = true
+	
+
 	end
 
 	def create
 		@user = User.create user_params
+		binding.pry
 		@user.date = DateTime.now
 		@user.save
 		if @user.save
@@ -28,7 +33,7 @@ end
 
 private
 	def user_params
-		params.require(:user).permit(:f_name, :l_name, :e_mail, :commitment, :org, :date, :info)
+		params.require(:user).permit(:f_name, :l_name, :e_mail, :commitment, :org, :date, :share_info, :make_public)
 	end
 
 	def social_params
