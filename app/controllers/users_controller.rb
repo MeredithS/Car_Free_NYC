@@ -13,13 +13,12 @@ class UsersController < ApplicationController
 		@user=User.new
 		@user.make_public = true
 		@user.share_info = true
-	
+
 
 	end
 
 	def create
 		@user = User.create user_params
-		binding.pry
 		@user.date = DateTime.now
 		@user.save
 		if @user.save
