@@ -1,7 +1,6 @@
 <%= stylesheet_link_tag "new_user" %>
 <div class="form-holder">
 	<h1>Make a Pledge!</h1>
-	<form>
 		<div class="row">
 			<div class="col-md-4"></div>
 	  	<div class="form-group">
@@ -9,7 +8,7 @@
 					<%=form_for @user do |f|%>
 						<%=f.label(:f_name, "First Name", class: 'required') %>
 						<%=f.text_field :f_name, class: 'form-control', :required => true %>
-					</div><!--ends dive col-md-4-->
+				 </div><!--ends dive col-md-4-->
 			</div><!--ends div form-group-->
 		</div><!--end div row-->
 		<div class="row">
@@ -55,7 +54,7 @@
 						<%=fields_for :social_handle do |social_handle_field|%>
 							<%=social_handle_field.label(:twitter, "Twitter Handle")%>
 							<%=social_handle_field.text_field :twitter, class: 'form-control' %>
-					</div><!--ends dive col-md-4-->
+				</div><!--ends dive col-md-4-->
 			</div><!--ends div form-group-->
 		</div><!--end div row-->
 		<div class="row">
@@ -90,10 +89,9 @@
 			<div class="col-md-4"></div>
 			<div class="form-group">
 				<div class="col-md-4">
-					<%=f.submit "Submit", class: 'btn btn-default' %>
+						<%=f.submit "Submit", class: 'btn btn-default' %>
 				</div><!--ends dive col-md-4-->
 			</div><!--ends div form-group-->
 		</div><!--end div row-->
-			<%end%>
-	</form>
+					<%end%>
 </div><!--ends div form-holder-->
