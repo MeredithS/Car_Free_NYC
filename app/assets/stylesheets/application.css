@@ -16,6 +16,7 @@
  h1.title {
    padding-top: 175px;
    text-align: center;
+<<<<<<< HEAD
    padding-bottom: 100px;
  }
 
@@ -31,6 +32,19 @@ background: linear-gradient(to right, rgba(210,255,82,1) 0%, rgba(210,255,82,1) 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=1 );
 }
 
+=======
+   padding-bottom: 50px;
+ }
+
+
+a.btn {
+  position: relative;
+  left: 25%;
+  width: 50%;
+}
+
+
+>>>>>>> david2
 div.container {
   font-family: 'Nunito', sans-serif;
   position: static;
@@ -47,6 +61,7 @@ div.transcontain {
   padding-right: 40px;
   left: 20px;
   right: 20px;
+<<<<<<< HEAD
 }
 
 img.logo {
@@ -59,4 +74,22 @@ img.logo {
   top: 40px;
   left: 20px;
   text-align: center;
+=======
+}
+
+img.logo {
+  position: fixed;
+  opacity: .1;
+  max-width: 100%;
+  height: 700px;
+  max-height: 100%;
+  width: 100%;
+  top: 40px;
+  left: 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: right;
+>>>>>>> david2
 }
