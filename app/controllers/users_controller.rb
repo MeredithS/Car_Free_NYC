@@ -3,9 +3,9 @@ class UsersController < ApplicationController
 
 	def index
 		@users = User.all.order("date desc")
-		respond_to do |format|
-			format.html
-			format.xlsx
+		# respond_to do |format|
+		# 	format.html
+		# 	format.xlsx
 		end
 	end
 
@@ -17,6 +17,7 @@ class UsersController < ApplicationController
 		@user = User.create user_params
 		@user.date = DateTime.now
 		@user.save
+		console.log(@user)
 		if @user.save
 			@user.social_handles.create social_params
 			flash[:notice] = "Thank you " + @user.f_name + " for your pledge!"
