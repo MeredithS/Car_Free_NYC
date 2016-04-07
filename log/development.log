@@ -17140,3 +17140,932 @@ Started GET "/assets/sponsors.self-8b63a302d84e453f2a02ab164652c21057ca1dd27dbc2
 
 
 Started GET "/assets/Car%20Free%20Flier.jpg" for ::1 at 2016-04-06 16:26:18 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-07 12:39:39 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (6.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (897.4ms)
+Completed 200 OK in 971ms (Views: 929.0ms | ActiveRecord: 15.2ms)
+
+
+Started GET "/assets/application.self-bb77763aeca0d523b11ee7c3a7178b66e99c5dac3fe4c6bf536729238999611f.css?body=1" for ::1 at 2016-04-07 12:39:41 -0400
+
+
+Started GET "/assets/new_user.self-b86de18a159e2ab90874557ed838bdc19fed227d91ea3cab8fbb2168e4436257.css?body=1" for ::1 at 2016-04-07 12:39:41 -0400
+
+
+Started GET "/assets/CFD%20Logo.jpg" for ::1 at 2016-04-07 12:39:41 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:40:06 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 27ms (Views: 22.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/CFD%20Logo.jpg" for ::1 at 2016-04-07 12:40:06 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:44:48 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (64.6ms)
+Completed 500 Internal Server Error in 387ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( header.css )` to `config/initializers/assets.rb` and restart your server):
+    17: <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    18:   </head>
+    19:   <%= stylesheet_link_tag "application" %>
+    20:   <%= stylesheet_link_tag "header" %>
+    21:   <div class="container">
+    22:     <nav class="navbar navbar-default navbar-fixed-top">
+    23:         <ul class="nav navbar-nav">
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb___4525229314910918781_70237688317840'
+
+
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.3ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.6ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (63.1ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.3ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (106.8ms)
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:45:46 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 1.3ms)
+
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( header.css )` to `config/initializers/assets.rb` and restart your server):
+    17: <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    18:   </head>
+    19:   <%= stylesheet_link_tag "application" %>
+    20:   <%= stylesheet_link_tag "header" %>
+    21:   <div class="container">
+    22:     <nav class="navbar navbar-default navbar-fixed-top">
+    23:         <ul class="nav navbar-nav">
+  app/views/layouts/application.html.erb:20:in `_app_views_layouts_application_html_erb___4525229314910918781_70237688317840'
+
+
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.3ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.8ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (31.8ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kierandahl/.rvm/gems/ruby-2.1.2/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (70.0ms)
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:46:10 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (405.0ms)
+Completed 200 OK in 473ms (Views: 445.5ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/assets/application.self-4db3fb9dc1e0d3b4bbe2570aa88dfb6c320dc200e31850dac6f38f869240a08e.css?body=1" for ::1 at 2016-04-07 12:46:11 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 12:46:11 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:47:38 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 37ms (Views: 26.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 12:47:39 -0400
+
+
+Started GET "/assets/application.self-4db3fb9dc1e0d3b4bbe2570aa88dfb6c320dc200e31850dac6f38f869240a08e.css?body=1" for ::1 at 2016-04-07 12:47:39 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:50:15 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (1.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 66ms (Views: 46.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.self-4db3fb9dc1e0d3b4bbe2570aa88dfb6c320dc200e31850dac6f38f869240a08e.css?body=1" for ::1 at 2016-04-07 12:50:15 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 12:50:15 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:51:09 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 24ms (Views: 21.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 12:51:09 -0400
+
+
+Started GET "/assets/application.self-4db3fb9dc1e0d3b4bbe2570aa88dfb6c320dc200e31850dac6f38f869240a08e.css?body=1" for ::1 at 2016-04-07 12:51:09 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:51:27 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (63.2ms)
+Completed 200 OK in 76ms (Views: 72.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-959ccbba51b0567e3a76d1fc8ad41418329a9e76afdae8bfce7dee6b33e4f86c.css?body=1" for ::1 at 2016-04-07 12:51:27 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 12:51:27 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:51:57 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (54.6ms)
+Completed 200 OK in 67ms (Views: 63.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 12:51:58 -0400
+
+
+Started GET "/assets/application.self-8dcfc3f0ab2d18720471d3b3c34523bf4657acd2a9b8bb73e3a1402385f83d58.css?body=1" for ::1 at 2016-04-07 12:51:58 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 12:51:58 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:53:17 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (44.4ms)
+Completed 200 OK in 55ms (Views: 53.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-fcba5141dd845c1aa226003816ca02bea421de5691dc0c5ba276af143776dcf7.css?body=1" for ::1 at 2016-04-07 12:53:17 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 12:53:18 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:56:41 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (42.1ms)
+Completed 200 OK in 53ms (Views: 50.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-013003ab57df94f2d027c5bde667d462d0a4ada90c30935ea1f7f82c4234e0fd.css?body=1" for ::1 at 2016-04-07 12:56:41 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 12:56:41 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:56:57 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (32.5ms)
+Completed 200 OK in 43ms (Views: 40.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-93fb21d54f49ca75a536b93fb751f591d887fd4d65d1e45a0eb28274c6854ebd.css?body=1" for ::1 at 2016-04-07 12:56:57 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 12:56:57 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:57:08 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-93fb21d54f49ca75a536b93fb751f591d887fd4d65d1e45a0eb28274c6854ebd.css?body=1" for ::1 at 2016-04-07 12:57:09 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 12:57:09 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:57:49 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (2.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (58.3ms)
+Completed 200 OK in 72ms (Views: 67.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.self-e43fb8bb35f37f934e8ff48a71c42775f8df4e9c3f59e92b12efa710d8a43c5e.css?body=1" for ::1 at 2016-04-07 12:57:49 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 12:57:49 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:58:24 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (41.1ms)
+Completed 200 OK in 54ms (Views: 51.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-ddb3def78691dfbda2cf8e549dff3e0aeb51120b6bf1b3dcda661e17a0cc7415.css?body=1" for ::1 at 2016-04-07 12:58:24 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 12:58:24 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 12:59:07 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (2.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (57.0ms)
+Completed 200 OK in 74ms (Views: 69.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/application.self-f855a561a192d9318a447eaf55318473dc8cc4cf9382334ce73dbc21e6867dee.css?body=1" for ::1 at 2016-04-07 12:59:08 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 12:59:08 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:01:55 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (26.0ms)
+Completed 200 OK in 80ms (Views: 51.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.self-f855a561a192d9318a447eaf55318473dc8cc4cf9382334ce73dbc21e6867dee.css?body=1" for ::1 at 2016-04-07 13:01:55 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:01:55 -0400
+
+
+Started GET "/sponsors" for ::1 at 2016-04-07 13:02:04 -0400
+Processing by WelcomeController#sponsors as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/sponsors.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 30ms (Views: 27.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/Car%20Free%20Flier.jpg" for ::1 at 2016-04-07 13:02:04 -0400
+
+
+Started GET "/sponsors" for ::1 at 2016-04-07 13:02:52 -0400
+Processing by WelcomeController#sponsors as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/sponsors.html.erb within layouts/application (99.9ms)
+Completed 200 OK in 122ms (Views: 112.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-f855a561a192d9318a447eaf55318473dc8cc4cf9382334ce73dbc21e6867dee.css?body=1" for ::1 at 2016-04-07 13:02:53 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:02:53 -0400
+
+
+Started GET "/assets/sponsors.self-0ebfe7e542ca33c9d805e063e2c6961db7e6af9d85c28ccbbee16473bd3abf37.css?body=1" for ::1 at 2016-04-07 13:02:53 -0400
+
+
+Started GET "/assets/Car%20Free%20Flier.jpg" for ::1 at 2016-04-07 13:02:53 -0400
+
+
+Started GET "/sponsors" for ::1 at 2016-04-07 13:03:11 -0400
+Processing by WelcomeController#sponsors as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/sponsors.html.erb within layouts/application (347.1ms)
+Completed 200 OK in 362ms (Views: 359.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-f855a561a192d9318a447eaf55318473dc8cc4cf9382334ce73dbc21e6867dee.css?body=1" for ::1 at 2016-04-07 13:03:11 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:03:11 -0400
+
+
+Started GET "/assets/sponsors.self-2f7492b1e577f38f0d38a0c4c4210a21e52a9bdfccac2f98a0f444b058cbdc60.css?body=1" for ::1 at 2016-04-07 13:03:11 -0400
+
+
+Started GET "/assets/Car%20Free%20Flier.jpg" for ::1 at 2016-04-07 13:03:11 -0400
+
+
+Started GET "/sponsors" for ::1 at 2016-04-07 13:03:19 -0400
+Processing by WelcomeController#sponsors as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/sponsors.html.erb within layouts/application (36.4ms)
+Completed 200 OK in 49ms (Views: 46.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/sponsors.self-628993d824445c2d6eb04153a8ba9526e2ff6a60687f3fe715c701e35105024b.css?body=1" for ::1 at 2016-04-07 13:03:19 -0400
+
+
+Started GET "/assets/application.self-f855a561a192d9318a447eaf55318473dc8cc4cf9382334ce73dbc21e6867dee.css?body=1" for ::1 at 2016-04-07 13:03:19 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:03:19 -0400
+
+
+Started GET "/assets/Car%20Free%20Flier.jpg" for ::1 at 2016-04-07 13:03:19 -0400
+
+
+Started GET "/sponsors" for ::1 at 2016-04-07 13:03:33 -0400
+Processing by WelcomeController#sponsors as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/sponsors.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 79ms (Views: 77.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-f855a561a192d9318a447eaf55318473dc8cc4cf9382334ce73dbc21e6867dee.css?body=1" for ::1 at 2016-04-07 13:03:34 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:03:34 -0400
+
+
+Started GET "/assets/sponsors.self-a8502c1daebbe07d95dc6933ebdbee7a938c0b4bb7746efadc0d88fec89708a2.css?body=1" for ::1 at 2016-04-07 13:03:34 -0400
+
+
+Started GET "/assets/Car%20Free%20Flier.jpg" for ::1 at 2016-04-07 13:03:34 -0400
+
+
+Started GET "/sponsors" for ::1 at 2016-04-07 13:03:43 -0400
+Processing by WelcomeController#sponsors as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/sponsors.html.erb within layouts/application (47.0ms)
+Completed 200 OK in 60ms (Views: 57.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-f855a561a192d9318a447eaf55318473dc8cc4cf9382334ce73dbc21e6867dee.css?body=1" for ::1 at 2016-04-07 13:03:44 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:03:44 -0400
+
+
+Started GET "/assets/sponsors.self-6321d3b46006fdaa6c3f6ac5ae1e64e1b8a04c6babae78503b0112e88b01d328.css?body=1" for ::1 at 2016-04-07 13:03:44 -0400
+
+
+Started GET "/assets/Car%20Free%20Flier.jpg" for ::1 at 2016-04-07 13:03:44 -0400
+
+
+Started GET "/sponsors" for ::1 at 2016-04-07 13:04:02 -0400
+Processing by WelcomeController#sponsors as HTML
+  [1m[35mUser Load (2.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/sponsors.html.erb within layouts/application (52.9ms)
+Completed 200 OK in 76ms (Views: 69.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.self-f855a561a192d9318a447eaf55318473dc8cc4cf9382334ce73dbc21e6867dee.css?body=1" for ::1 at 2016-04-07 13:04:02 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:04:02 -0400
+
+
+Started GET "/assets/sponsors.self-368535772bec62cb53d25a5f41c32bd85b591ca46115ad5897c1de72b20b9453.css?body=1" for ::1 at 2016-04-07 13:04:02 -0400
+
+
+Started GET "/assets/Car%20Free%20Flier.jpg" for ::1 at 2016-04-07 13:04:02 -0400
+
+
+Started GET "/sponsors" for ::1 at 2016-04-07 13:04:11 -0400
+Processing by WelcomeController#sponsors as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/sponsors.html.erb within layouts/application (44.3ms)
+Completed 200 OK in 58ms (Views: 54.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:04:11 -0400
+
+
+Started GET "/assets/application.self-f855a561a192d9318a447eaf55318473dc8cc4cf9382334ce73dbc21e6867dee.css?body=1" for ::1 at 2016-04-07 13:04:11 -0400
+
+
+Started GET "/assets/sponsors.self-e1eab2e092851f39b3e37629af6504af70e26473ddb593ec8c89315c0fa6f7cc.css?body=1" for ::1 at 2016-04-07 13:04:11 -0400
+
+
+Started GET "/assets/Car%20Free%20Flier.jpg" for ::1 at 2016-04-07 13:04:11 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:04:33 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 19ms (Views: 16.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:13:54 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (59.5ms)
+Completed 200 OK in 108ms (Views: 79.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:13:55 -0400
+
+
+Started GET "/assets/application.self-f855a561a192d9318a447eaf55318473dc8cc4cf9382334ce73dbc21e6867dee.css?body=1" for ::1 at 2016-04-07 13:13:55 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:14:37 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (558.3ms)
+Completed 200 OK in 571ms (Views: 568.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-dc11b8557884cc862d16c7671c379705b86d6a2f1b8e0f03cf4d7dc0e940cdcd.css?body=1" for ::1 at 2016-04-07 13:14:38 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:14:38 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:30:35 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (35.7ms)
+Completed 200 OK in 89ms (Views: 67.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.self-dc11b8557884cc862d16c7671c379705b86d6a2f1b8e0f03cf4d7dc0e940cdcd.css?body=1" for ::1 at 2016-04-07 13:30:36 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:30:36 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:31:14 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 27ms (Views: 21.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-dc11b8557884cc862d16c7671c379705b86d6a2f1b8e0f03cf4d7dc0e940cdcd.css?body=1" for ::1 at 2016-04-07 13:31:14 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:31:14 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:31:29 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 32ms (Views: 27.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-dc11b8557884cc862d16c7671c379705b86d6a2f1b8e0f03cf4d7dc0e940cdcd.css?body=1" for ::1 at 2016-04-07 13:31:30 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:31:30 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-07 13:31:37 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (1.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (98.5ms)
+Completed 200 OK in 127ms (Views: 116.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:32:26 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 24ms (Views: 19.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-dc11b8557884cc862d16c7671c379705b86d6a2f1b8e0f03cf4d7dc0e940cdcd.css?body=1" for ::1 at 2016-04-07 13:32:27 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:32:27 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:34:18 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 23ms (Views: 19.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-dc11b8557884cc862d16c7671c379705b86d6a2f1b8e0f03cf4d7dc0e940cdcd.css?body=1" for ::1 at 2016-04-07 13:34:18 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:34:18 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:34:18 -0400
+
+
+Started GET "/assets/application.self-dc11b8557884cc862d16c7671c379705b86d6a2f1b8e0f03cf4d7dc0e940cdcd.css?body=1" for ::1 at 2016-04-07 13:34:18 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:35:45 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (102.3ms)
+Completed 200 OK in 115ms (Views: 113.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-5bf130f02d44a11e96e98da2ed33624de609fdc9c2d958909d06acacf8dcdc6b.css?body=1" for ::1 at 2016-04-07 13:35:46 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:35:46 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:36:05 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (55.6ms)
+Completed 200 OK in 67ms (Views: 65.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:36:05 -0400
+
+
+Started GET "/assets/application.self-3bcef1971ca5d30a809ba0057baa4c8a22531e2f67aee6ebfe8e3a0b0e2ea325.css?body=1" for ::1 at 2016-04-07 13:36:05 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:36:13 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (57.5ms)
+Completed 200 OK in 73ms (Views: 69.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-34aafc5b44399f07e639d7f02aa508589e11d6118badfe4f4b5b4fc76b26836c.css?body=1" for ::1 at 2016-04-07 13:36:13 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:36:13 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:36:19 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (45.1ms)
+Completed 200 OK in 57ms (Views: 53.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-1cea88a422a39746e1cd77340f662731ecc8d562fe9d4503ba0553c0f68d55ad.css?body=1" for ::1 at 2016-04-07 13:36:20 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:36:20 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:36:57 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (79.3ms)
+Completed 200 OK in 117ms (Views: 95.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-9202bf0658d6caad304bcc3fca863f36e8599ecc112ab2d61f1a12dbf64f081b.css?body=1" for ::1 at 2016-04-07 13:36:57 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:36:58 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:37:37 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (59.0ms)
+Completed 200 OK in 75ms (Views: 70.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-11c46df74ad28965a6107e9754b176266cae24e34080b7a93968a58db686b369.css?body=1" for ::1 at 2016-04-07 13:37:37 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:37:37 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:38:13 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (49.8ms)
+Completed 200 OK in 70ms (Views: 66.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:38:13 -0400
+
+
+Started GET "/assets/application.self-6152b2da339caa310998506467199f2c3a726843a3948236f5fbe3804981cbbc.css?body=1" for ::1 at 2016-04-07 13:38:13 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:38:25 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (1.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (66.3ms)
+Completed 200 OK in 106ms (Views: 85.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.self-29858ea6ada350e39e5571cb7ef5a7526f4b7beaf27747ee35ae10725bff172f.css?body=1" for ::1 at 2016-04-07 13:38:25 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:38:25 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:38:42 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (88.0ms)
+Completed 200 OK in 104ms (Views: 101.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:38:43 -0400
+
+
+Started GET "/assets/application.self-9894e0b501b531d76b73cf18b770125896c821b2829af7ac89684a1f868b47a4.css?body=1" for ::1 at 2016-04-07 13:38:43 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:39:26 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (109.1ms)
+Completed 200 OK in 134ms (Views: 130.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-833cbcb89dd44ab3aa0351e2174f78be9defc4c33fd88cec71e7a8a1de7b8d31.css?body=1" for ::1 at 2016-04-07 13:39:27 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:39:27 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:40:02 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (63.5ms)
+Completed 200 OK in 115ms (Views: 82.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.self-e4d6afc604aeedb011bada567115b05b2ed43856e7ba2ece263bfd1710aeb11e.css?body=1" for ::1 at 2016-04-07 13:40:03 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:40:03 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:40:21 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (52.0ms)
+Completed 200 OK in 64ms (Views: 61.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:40:22 -0400
+
+
+Started GET "/assets/application.self-723d97f057b03c0b4f6b2b66d0cf5593c85711a83314a9951e3ea983310027f5.css?body=1" for ::1 at 2016-04-07 13:40:22 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:40:33 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (57.4ms)
+Completed 200 OK in 80ms (Views: 76.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:40:33 -0400
+
+
+Started GET "/assets/application.self-2d3e22aa5a28e058c7cf279a0bfa079ea72480a06ad76db67f5bee3ea0433a8a.css?body=1" for ::1 at 2016-04-07 13:40:33 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:40:42 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (57.8ms)
+Completed 200 OK in 70ms (Views: 67.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-09d9d71693e7cd5701a505e87d01cdd0879c12ef1a7b2a1208b971ed392a0f21.css?body=1" for ::1 at 2016-04-07 13:40:43 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:40:43 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-07 13:42:22 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 109ms (Views: 94.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-64a63fbab5696fa76d45b957acc4210548c1037be6c61e11b1e31e9905b6e603.css?body=1" for ::1 at 2016-04-07 13:42:22 -0400
+
+
+Started GET "/pledge_confirmation" for ::1 at 2016-04-07 13:42:28 -0400
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mUser Load (20.8ms)[0m  [1mSELECT "users".* FROM "users"  ORDER BY date desc[0m
+  Rendered users/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 45ms (Views: 21.1ms | ActiveRecord: 21.4ms)
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:43:00 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (74.6ms)
+Completed 200 OK in 101ms (Views: 90.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.self-db75eac4ee2de91b1de2c8bd203b0480dadf2d14e30fd32d8da09f06a0464e3e.css?body=1" for ::1 at 2016-04-07 13:43:01 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:43:40 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 49ms (Views: 32.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.self-db75eac4ee2de91b1de2c8bd203b0480dadf2d14e30fd32d8da09f06a0464e3e.css?body=1" for ::1 at 2016-04-07 13:43:41 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:43:41 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:44:36 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (56.9ms)
+Completed 200 OK in 75ms (Views: 72.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-1a561176fff33579f59b133fce8c49fec86a449d42884a9ea595629d8f667663.css?body=1" for ::1 at 2016-04-07 13:44:36 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:44:36 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:45:58 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (187.3ms)
+Completed 200 OK in 237ms (Views: 217.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.self-d6e4f96bf50e06829184dc075c6f138c026aa0eb542ddb899585df85f2f08d56.css?body=1" for ::1 at 2016-04-07 13:45:59 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:45:59 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:45:59 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:46:19 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (70.7ms)
+Completed 200 OK in 87ms (Views: 82.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-4b8c904ba9a1bdf50b653b016274b49cd6efad09ef9c6187be4f5ff35d4c2d44.css?body=1" for ::1 at 2016-04-07 13:46:19 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:46:20 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:47:51 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (241.5ms)
+Completed 200 OK in 285ms (Views: 264.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-8fb2a1cc4dfcd7525a5ec68ab787042fef237d1e3a4f2162aa9b1d13121f1b18.css?body=1" for ::1 at 2016-04-07 13:47:52 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:47:52 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:48:10 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (57.3ms)
+Completed 200 OK in 72ms (Views: 69.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:48:10 -0400
+
+
+Started GET "/assets/application.self-309124e83a33e25ecf47a7a7504001ba9978b6ef32bb76f7b56cb4c4691dc49d.css?body=1" for ::1 at 2016-04-07 13:48:10 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:48:37 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (45.8ms)
+Completed 200 OK in 60ms (Views: 56.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.self-31ea1873493fb431f7c18578a67dffae701fd87e79274367d5da8c299a659a2c.css?body=1" for ::1 at 2016-04-07 13:48:37 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:48:37 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:48:57 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (1.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (56.2ms)
+Completed 200 OK in 71ms (Views: 66.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-b406d213932beac3942b7dc6f9db0b9fdee592faa82eca348fba070fdb062600.css?body=1" for ::1 at 2016-04-07 13:48:58 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:48:58 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:49:11 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (65.9ms)
+Completed 200 OK in 83ms (Views: 79.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.self-2a0de505bfbeacc361f8b4ab273dd92b11cec6f945d5ade8c96ec5db44ea4b08.css?body=1" for ::1 at 2016-04-07 13:49:11 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:49:11 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 13:49:32 -0400
+Processing by WelcomeController#root as HTML
+  [1m[35mUser Load (1.7ms)[0m  SELECT "users".* FROM "users"
+  Rendered welcome/root.html.erb within layouts/application (49.4ms)
+Completed 200 OK in 67ms (Views: 63.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.self-256cb5a4609a8772eeb8aaadf3bba97f2506ee54de3fb09c5f9b8f337d34bcb4.css?body=1" for ::1 at 2016-04-07 13:49:32 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 13:49:32 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-07 13:49:54 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 34ms (Views: 30.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pledge?utf8=%E2%9C%93&authenticity_token=RjE%2BaW1zWFbaYGHfxbF%2F%2FZx47M%2F51%2BIUTAgypwd2IGWOsgH24YPfbrOwhbJZPINS7nZPpGhzoJkx1e6cxPNcUg%3D%3D&user%5Bf_name%5D=David&user%5Bl_name%5D=Hockney&user%5Be_mail%5D=dhockney%40gmail.com&user%5Bcommitment%5D=make+beautiful+art.&user%5Borg%5D=artists+worldwide&social_handle%5Btwitter%5D=&social_handle%5Bfacebook%5D=&social_handle%5Binstagram%5D=&user%5Binfo%5D=Yes&commit=Submit" for ::1 at 2016-04-07 13:50:22 -0400
+Processing by UsersController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RjE+aW1zWFbaYGHfxbF//Zx47M/51+IUTAgypwd2IGWOsgH24YPfbrOwhbJZPINS7nZPpGhzoJkx1e6cxPNcUg==", "user"=>{"f_name"=>"David", "l_name"=>"Hockney", "e_mail"=>"dhockney@gmail.com", "commitment"=>"make beautiful art.", "org"=>"artists worldwide", "info"=>"Yes"}, "social_handle"=>{"twitter"=>"", "facebook"=>"", "instagram"=>""}, "commit"=>"Submit"}
+  [1m[35mUser Load (3.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 43ms (Views: 37.3ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/pledge?utf8=%E2%9C%93&authenticity_token=RjE%2BaW1zWFbaYGHfxbF%2F%2FZx47M%2F51%2BIUTAgypwd2IGWOsgH24YPfbrOwhbJZPINS7nZPpGhzoJkx1e6cxPNcUg%3D%3D&user%5Bf_name%5D=David&user%5Bl_name%5D=Hockney&user%5Be_mail%5D=dhockney%40gmail.com&user%5Bcommitment%5D=make+beautiful+art.&user%5Borg%5D=artists+worldwide&social_handle%5Btwitter%5D=&social_handle%5Bfacebook%5D=&social_handle%5Binstagram%5D=&user%5Binfo%5D=Yes&commit=Submit" for ::1 at 2016-04-07 14:04:27 -0400
+Processing by UsersController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RjE+aW1zWFbaYGHfxbF//Zx47M/51+IUTAgypwd2IGWOsgH24YPfbrOwhbJZPINS7nZPpGhzoJkx1e6cxPNcUg==", "user"=>{"f_name"=>"David", "l_name"=>"Hockney", "e_mail"=>"dhockney@gmail.com", "commitment"=>"make beautiful art.", "org"=>"artists worldwide", "info"=>"Yes"}, "social_handle"=>{"twitter"=>"", "facebook"=>"", "instagram"=>""}, "commit"=>"Submit"}
+  [1m[36mUser Load (10.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (97.7ms)
+Completed 200 OK in 198ms (Views: 152.7ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/application.self-256cb5a4609a8772eeb8aaadf3bba97f2506ee54de3fb09c5f9b8f337d34bcb4.css?body=1" for ::1 at 2016-04-07 14:04:28 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 14:04:28 -0400
+
+
+Started GET "/assets/new_user.self-b86de18a159e2ab90874557ed838bdc19fed227d91ea3cab8fbb2168e4436257.css?body=1" for ::1 at 2016-04-07 14:04:28 -0400
+
+
+Started GET "/pledge?utf8=%E2%9C%93&authenticity_token=1tyDYV%2BLmGSOHlqovclAxDc3VLeHkuhjRoz1j%2FpuuqIeX7z%2B03sfXOfOvsUhRLxrRTn33BY2qu47USm0OevGlQ%3D%3D&user%5Bf_name%5D=%3Bkl%3Blk&user%5Bl_name%5D=l%3Bk%3B%3Bl&user%5Be_mail%5D=%3Blk%3Bl&user%5Bcommitment%5D=%3Blk%3Blk&user%5Borg%5D=&social_handle%5Btwitter%5D=&social_handle%5Bfacebook%5D=&social_handle%5Binstagram%5D=&user%5Binfo%5D=Yes&commit=Submit" for ::1 at 2016-04-07 14:05:06 -0400
+Processing by UsersController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1tyDYV+LmGSOHlqovclAxDc3VLeHkuhjRoz1j/puuqIeX7z+03sfXOfOvsUhRLxrRTn33BY2qu47USm0OevGlQ==", "user"=>{"f_name"=>";kl;lk", "l_name"=>"l;k;;l", "e_mail"=>";lk;l", "commitment"=>";lk;lk", "org"=>"", "info"=>"Yes"}, "social_handle"=>{"twitter"=>"", "facebook"=>"", "instagram"=>""}, "commit"=>"Submit"}
+  [1m[35mUser Load (1.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (163.4ms)
+Completed 200 OK in 237ms (Views: 195.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/pledge_confirmation" for ::1 at 2016-04-07 14:05:11 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users"  ORDER BY date desc
+  Rendered users/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 23ms (Views: 18.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/pledge" for ::1 at 2016-04-07 14:05:17 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.4ms)
