@@ -19890,6 +19890,7 @@ Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3d
 Started GET "/assets/sponsors.self-e1eab2e092851f39b3e37629af6504af70e26473ddb593ec8c89315c0fa6f7cc.css?body=1" for ::1 at 2016-04-07 16:25:52 -0400
 
 
+<<<<<<< HEAD
 Started GET "/pledge" for ::1 at 2016-04-07 17:47:02 -0400
   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by UsersController#new as HTML
@@ -20708,3 +20709,44 @@ Processing by WelcomeController#sponsors as HTML
   [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
   Rendered welcome/sponsors.html.erb within layouts/application (134.3ms)
 Completed 200 OK in 153ms (Views: 146.5ms | ActiveRecord: 0.5ms)
+=======
+Started GET "/pledge_confirmation" for ::1 at 2016-04-07 17:43:19 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (13.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (7.1ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mUser Load (6.9ms)[0m  [1mSELECT "users".* FROM "users"  ORDER BY date desc[0m
+  Rendered users/index.html.erb within layouts/application (403.2ms)
+Completed 200 OK in 517ms (Views: 455.4ms | ActiveRecord: 33.7ms)
+
+
+Started GET "/assets/application.self-f3548752461ee124fb5cc54d522002186d0e49453038d6e0374609fbe896ac24.css?body=1" for ::1 at 2016-04-07 17:43:21 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 17:43:21 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-07 17:43:23 -0400
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (184.5ms)
+Completed 200 OK in 214ms (Views: 205.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/new_user.self-9a11a2e32ab104304143a921bb3078200d016b6ffe17ed7a0bd6dbe41356a9f3.css?body=1" for ::1 at 2016-04-07 17:43:23 -0400
+
+
+Started GET "/pledge" for ::1 at 2016-04-07 17:48:33 -0400
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (69.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/new.html.erb within layouts/application (284.4ms)
+Completed 200 OK in 453ms (Views: 358.5ms | ActiveRecord: 69.5ms)
+
+
+Started GET "/assets/application.self-f3548752461ee124fb5cc54d522002186d0e49453038d6e0374609fbe896ac24.css?body=1" for ::1 at 2016-04-07 17:48:34 -0400
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 17:48:34 -0400
+
+
+Started GET "/assets/new_user.self-5d6706e101e3f989c281eab29fff2b3c0b8c50c799fef7bf6a0d45fb83503620.css?body=1" for ::1 at 2016-04-07 17:48:34 -0400
+>>>>>>> dev
