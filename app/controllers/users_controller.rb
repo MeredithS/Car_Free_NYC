@@ -11,9 +11,8 @@ class UsersController < ApplicationController
 
 	def new
 		@user=User.new
-		@user.make_public = true
-		@user.share_info = true
-
+		# @user.make_public = true
+		# @user.share_info = true
 
 	end
 
