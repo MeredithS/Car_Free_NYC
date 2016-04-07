@@ -3,10 +3,10 @@ class UsersController < ApplicationController
 
 	def index
 		@users = User.all.order("date desc")
-		respond_to do |format|
-			format.html
-			format.xlsx
-		end
+		# respond_to do |format|
+		# 	format.html
+		# 	format.xlsx
+		# end
 	end
 
 	def new
@@ -34,4 +34,3 @@ private
 	def social_params
 		params.require(:social_handle).permit(:twitter, :facebook, :instagram)
 	end
-

@@ -19,7 +19,6 @@
    padding-bottom: 50px;
  }
 
-
 a.btn {
   position: relative;
   left: 25%;
@@ -31,6 +30,15 @@ div.container {
   font-family: 'Nunito', sans-serif;
   position: static;
   overflow-y: auto;
+}
+
+div.pledgebox {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.listpledge {
+  list-style-type: none;
 }
 
 div.transcontain {
@@ -46,14 +54,15 @@ div.transcontain {
 }
 
 img.logo {
+  padding-top: 175px;
   position: fixed;
-  opacity: .1;
+  opacity: .05;
   max-width: 100%;
   height: 700px;
   max-height: 100%;
-  width: 100%;
+  width: 60%;
   top: 40px;
-  left: 20px;
+  left: 20%;
   text-align: center;
 }
 
