@@ -1,0 +1,35 @@
+
+
+body{
+	background-image: url('http://www.streetsblog.org/wp-content/uploads/2015/06/canal.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+h1 {
+	left: 35%;
+	position: relative;
+}
+
+.form-holder{
+	padding-top: 175px;
+	color: white;
+}
+
+
+div.transcontain {
+}
+
+label.required:after {
+  content: " *";
+  color: red;
+}
+.space {
+	display: inline;
+	}
+
+.drop-down{
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
