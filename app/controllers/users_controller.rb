@@ -19,7 +19,6 @@ class UsersController < ApplicationController
 
 	def create
 		@user = User.create user_params
-		binding.pry
 		@user.date = DateTime.now
 		@user.save
 		if @user.save
