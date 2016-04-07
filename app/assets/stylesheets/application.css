@@ -19,6 +19,10 @@
    padding-bottom: 50px;
  }
 
+.adminnew {
+  padding-top: 175px;
+}
+
 a.btn {
   position: relative;
   left: 25%;
