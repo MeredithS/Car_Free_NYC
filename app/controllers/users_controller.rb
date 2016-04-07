@@ -13,7 +13,6 @@ class UsersController < ApplicationController
 		@user=User.new
 		# @user.make_public = true
 		# @user.share_info = true
-	
 
 	end
 
