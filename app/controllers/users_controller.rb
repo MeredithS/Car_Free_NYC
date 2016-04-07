@@ -34,4 +34,3 @@ private
 	def social_params
 		params.require(:social_handle).permit(:twitter, :facebook, :instagram)
 	end
-
