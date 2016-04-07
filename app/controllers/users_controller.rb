@@ -3,10 +3,10 @@ class UsersController < ApplicationController
 
 	def index
 		@users = User.all.order("date desc")
-		respond_to do |format|
-			format.html
-			format.xlsx
-		end
+		# respond_to do |format|
+		# 	format.html
+		# 	format.xlsx
+		# end
 	end
 
 	def new
@@ -14,6 +14,7 @@ class UsersController < ApplicationController
 	end
 
 	def create
+		binding.pry
 		@user = User.create user_params
 		@user.date = DateTime.now
 		@user.save

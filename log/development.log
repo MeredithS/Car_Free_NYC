@@ -18069,3 +18069,27 @@ Processing by UsersController#new as HTML
   [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
   Rendered users/new.html.erb within layouts/application (10.2ms)
 Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pledge" for ::1 at 2016-04-07 14:29:45 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/new.html.erb within layouts/application (496.1ms)
+Completed 200 OK in 555ms (Views: 525.7ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/assets/header.self-b364b833ac86567bc34f41cddec3a9a1a1e572c6da1fe3dc29aba4d89cdbaaf6.css?body=1" for ::1 at 2016-04-07 14:29:47 -0400
+
+
+Started GET "/assets/application.self-256cb5a4609a8772eeb8aaadf3bba97f2506ee54de3fb09c5f9b8f337d34bcb4.css?body=1" for ::1 at 2016-04-07 14:29:47 -0400
+
+
+Started GET "/assets/new_user.self-e2375901f17700487a4af2512b64cb5c8d796dad2e7bf3715b4c60a47b10b9b2.css?body=1" for ::1 at 2016-04-07 14:29:47 -0400
+
+
+Started GET "/car_free_nyc" for ::1 at 2016-04-07 14:29:50 -0400
+Processing by WelcomeController#root as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered welcome/root.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 19ms (Views: 16.4ms | ActiveRecord: 0.6ms)
