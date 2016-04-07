@@ -16,7 +16,7 @@ Rails.application.routes.draw do
 
   get '/car_free_nyc' => 'welcome#root'
   get '/pledge' => 'users#new'
-  post 'created_pledge' => 'users#create'
+  post '/created_pledge' => 'users#create'
   get '/pledge_confirmation' => 'users#index'
   get '/sponsors' => 'welcome#sponsors'
   get '/login' => 'sessions#new'
