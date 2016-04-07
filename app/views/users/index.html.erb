@@ -1,16 +1,19 @@
 <%= stylesheet_link_tag "application" %>
+<img src="http://s22.postimg.org/fr7hee6o1/CFD_Logo.jpg" class="img-responsive logo">
 <div class="container">
+	<div class="pledgebox">
 	<div class="row">
-<h1>Earth Day Pledges</h1>
+<h1 class="title">Earth Day Pledges</h1>
 </div>
 <div class="row">
-<ul>
+<ul class="listpledge">
 	<%@users.each do |user|%>
 		<div class="row">
-		<li><p><%=user.f_name%> from <%=user.org%> pledges to <%=user.commitment%></p></li>
+		<li><h4><%=user.f_name%> from <%=user.org%> pledges to <%=user.commitment%></h4></li>
 	</div>
 	<%end%>
 
 </ul>
+</div>
 </div>
 </div>
