@@ -39,7 +39,7 @@ a.btn {
 div.container {
   font-family: 'Nunito', sans-serif;
   position: static;
-  /*overflow-y: auto;*/
+  overflow-y: auto;
   padding-bottom: 50px;
 }
 
