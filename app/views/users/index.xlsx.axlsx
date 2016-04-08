@@ -2,6 +2,6 @@ wb = xlsx_package.workbook
 wb.add_worksheet(name: "Pledges for Car Free NYC") do |sheet|
 	sheet.add_row ["First Name", "Last Name", "E-mail","Commitment", "Organization","Date","Share Info?", "Twitter", "Facebook", "Instagram"]
 	@users.each do |user|
-		sheet.add_row [user.f_name, user.l_name, user.e_mail, user.commitment, user.org, user.date, user.info, user.social_handles.first.twitter, user.social_handles.first.facebook, user.social_handles.first.instagram]
+		sheet.add_row [user.f_name, user.l_name, user.e_mail, user.commitment, user.org, user.date, user.share_info, user.social_handles.first.twitter, user.social_handles.first.facebook, user.social_handles.first.instagram]
 	end
 end
