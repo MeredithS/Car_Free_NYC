@@ -2,20 +2,19 @@
 <img src="https://s22.postimg.org/fr7hee6o1/CFD_Logo.jpg" class="img-responsive logo">
 <div class="container">
 	<div class="pledgebox">
-	<div class="row">
-<h1 class="title">Earth Day Pledges</h1>
-</div>
-<div class="row">
-<ul class="listpledge">
-	<%@users.each do |user|%>
 		<div class="row">
-		<%if user.make_public === true%>
-		<li><h4><%=user.f_name%> from <%=user.org%> pledges to <%=user.commitment%></h4></li>
-		<%end%>
+			<h1 class="title">Earth Day Pledges</h1>
+		</div>
+		<div class="row">
+			<ul class="listpledge">
+				<%@users.each do |user|%>
+				<div class="row">
+					<%if user.make_public === true%>
+						<li><h4><%=user.f_name%> from <%=user.org%> pledges to <%=user.commitment%></h4></li>
+					<%end%>
+				</div>
+				<%end%>
+			</ul>
+		</div>
 	</div>
-	<%end%>
-
-</ul>
-</div>
-</div>
 </div>

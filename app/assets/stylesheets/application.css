@@ -14,11 +14,6 @@
  *= require_self
  */
 
- body {
-
- }
-
-
  h1.title {
    padding-top: 175px;
    text-align: center;
@@ -35,21 +30,21 @@ a.btn {
   width: 50%;
 }
 
-
 div.container {
   font-family: 'Nunito', sans-serif;
   position: static;
-  /*overflow-y: auto;*/
   padding-bottom: 50px;
-}
-
-div.pledgebox {
-  text-align: center;
-  font-weight: bolder;
 }
 
 .listpledge {
   list-style-type: none;
+}
+
+/* Pledge button on "About Us" */
+
+div.pledgebox {
+  text-align: center;
+  font-weight: bolder;
 }
 
 div.transcontain {
@@ -63,6 +58,8 @@ div.transcontain {
   left: 20px;
   right: 20px;
 }
+
+/*Footer, GA and Car Free Footer Logo*/
 
 img.logo {
   padding-top: 175px;
