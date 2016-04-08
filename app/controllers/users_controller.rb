@@ -3,17 +3,10 @@ class UsersController < ApplicationController
 
 	def index
 		@users = User.all.order("date desc")
-		# respond_to do |format|
-		# 	format.html
-		# 	format.xlsx
-		# end
 	end
 
 	def new
 		@user=User.new
-		# @user.make_public = true
-		# @user.share_info = true
-
 	end
 
 	def create

@@ -43,7 +43,7 @@
 			<div class="form-group">
 				<div class="col-md-4">
 						<%=f.label(:org, "Organization", class: 'required')%>
-						<%=f.text_field :org, class: 'form-control' %>
+						<%=f.text_field :org, class: 'form-control', :required => true %>
 				</div><!--ends dive col-md-4-->
 			</div><!--ends div form-group-->
 		</div><!--end div row-->
@@ -80,7 +80,7 @@
 			<div class="form-group">
 				<div class="col-md-4"></div>
 				<div class="col-md-8">
-						<%= f.check_box :share_info %>
+						<%= f.check_box :share_info, options = {:checked => true} %>
 						<%= f.label :share_info, "Share my contact information with partners Earth Day Initiative and General Assembly to stay up to date about their programs and events.", class: 'space' %>
 				</div><!--ends dive col-md-8-->
 			</div><!--ends div form-group-->
@@ -89,7 +89,7 @@
 		<div class="form-group">
 				<div class="col-md-4"></div>
 					<div class="col-md-8">
-						<%= f.check_box :make_public %>
+						<%= f.check_box :make_public, options = {:checked => true} %>
 						<%= f.label :make_public, "Make my name, organization, and pledge public!" %>
 				</div><!--ends dive col-md-8-->
 			</div><!--ends div form-group-->
