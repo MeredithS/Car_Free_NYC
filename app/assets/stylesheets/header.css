@@ -12,6 +12,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', end
 display: block inline;
 }
 
+.navbar li {
+  display: inline-block;
+}
+
 img.everypagelogo {
   position: relative;
   height: 80px;
