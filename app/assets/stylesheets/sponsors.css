@@ -24,16 +24,11 @@ img.footerlogo {
 }
 
 footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  text-align: right;
-  /*background: rgba(242,246,248,1);
-  background: -moz-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(181,198,208,0.65) 51%, rgba(224,239,249,0.31) 100%);
-  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,246,248,1)), color-stop(51%, rgba(181,198,208,0.65)), color-stop(100%, rgba(224,239,249,0.31)));
-  background: -webkit-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(181,198,208,0.65) 51%, rgba(224,239,249,0.31) 100%);
-  background: -o-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(181,198,208,0.65) 51%, rgba(224,239,249,0.31) 100%);
-  background: -ms-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(181,198,208,0.65) 51%, rgba(224,239,249,0.31) 100%);
-  background: linear-gradient(to right, rgba(242,246,248,1) 0%, rgba(181,198,208,0.65) 51%, rgba(224,239,249,0.31) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=1 );*/
-}
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    text-align: right;
+    z-index: 1;
+    font-size: 2vmin;
+  }
