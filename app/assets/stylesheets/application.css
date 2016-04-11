@@ -69,6 +69,14 @@ img.car_less {
   width: 100%;
 }
 
+/*Sponsor view*/
+
+img.sponsor {
+  position: static;
+  padding-top: 175px;
+  padding-left: 0px;
+}
+
 /*Footer, GA and Car Free Footer Logo*/
 
 img.logo {
