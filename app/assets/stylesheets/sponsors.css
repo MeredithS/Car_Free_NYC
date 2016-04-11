@@ -1,5 +1,11 @@
 /*Sponsor img, footer for "Sponsors"*/
 
+div.container {
+  font-family: 'Nunito', sans-serif;
+  position: static;
+  padding-bottom: 50px;
+}
+
 img.sponsor {
   position: static;
   padding-top: 175px;
@@ -29,6 +35,5 @@ footer {
     width: 100%;
     background: white;
     text-align: right;
-    z-index: 1;
     font-size: 2vmin;
   }
