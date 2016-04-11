@@ -1,11 +1,11 @@
 <%= stylesheet_link_tag "application" %>
 <div class="container">
   <body>
-  <div class="row">
-    <h1 class="title">Add a User to the Admin</h1>
-  </div>
-  <div class="row">
-    <%= form_for @admin, url: {action: "create"} do |f| %>
+    <div class="row">
+      <h1 class="title">Add a User to the Admin</h1>
+    </div>
+    <div class="row">
+      <%= form_for @admin, url: {action: "create"} do |f| %>
       <%=f.label :username %>
       <%=f.text_field :username %>
     </div>

@@ -1,91 +1,91 @@
 <%= stylesheet_link_tag "new_user" %>
 <div class="form-holder">
-	<h1>Make a Pledge!</h1>
-		<div class="row">
+	<h1 class"title">Make a Pledge!</h1>
+	<div class="row">
+		<div class="col-md-4"></div>
+  	<div class="form-group">
+  		<div class="col-md-4">
+				<%=form_for @user do |f|%>
+					<%=f.label(:f_name, "First Name", class: 'required') %>
+					<%=f.text_field :f_name, class: 'form-control', :required => true %>
+			 </div><!--ends dive col-md-4-->
+		</div><!--ends div form-group-->
+	</div><!--end div row-->
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="form-group">
+			<div class="col-md-4">
+					<%=f.label(:l_name, "Last Name", class: 'required')%>
+					<%=f.text_field :l_name, class: 'form-control', :required => true %>
+			</div><!--ends dive col-md-4-->
+		</div><!--ends div form-group-->
+	</div><!--end div row-->
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="form-group">
+			<div class="col-md-4">
+					<%=f.label(:e_mail,"E-mail", class: 'required')%>
+					<%=f.text_field :e_mail, class: 'form-control', :required => true %>
+			</div><!--ends dive col-md-4-->
+		</div><!--ends div form-group-->
+	</div><!--end div row-->
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="form-group">
+			<div class="col-md-4">
+					<%=f.label(:commitment, "I pledge to", class: 'required')%>
+					<%=f.text_area :commitment, class: 'form-control', rows: '5', :required => true %>
+			</div><!--ends dive col-md-4-->
+		</div><!--ends div form-group-->
+	</div><!--end div row-->
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="form-group">
+			<div class="col-md-4">
+					<%=f.label(:org, "Organization", class: 'required')%>
+					<%=f.text_field :org, class: 'form-control', :required => true %>
+			</div><!--ends dive col-md-4-->
+		</div><!--ends div form-group-->
+	</div><!--end div row-->
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="form-group">
+			<div class="col-md-4">
+				<%=fields_for :social_handle do |social_handle_field|%>
+					<%=social_handle_field.label(:twitter, "Twitter Handle")%>
+					<%=social_handle_field.text_field :twitter, class: 'form-control' %>
+			</div><!--ends dive col-md-4-->
+		</div><!--ends div form-group-->
+	</div><!--end div row-->
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="form-group">
+			<div class="col-md-4">
+				<%=social_handle_field.label(:facebook, "Facebook Page")%>
+				<%=social_handle_field.text_field :facebook, class: 'form-control' %>
+			</div><!--ends dive col-md-4-->
+		</div><!--ends div form-group-->
+	</div><!--end div row-->
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="form-group">
+			<div class="col-md-4">
+				<%=social_handle_field.label(:instagram, "Instagram")%>
+				<%=social_handle_field.text_field :instagram, class: 'form-control' %>
+				<%end%>
+			</div><!--ends dive col-md-4-->
+		</div><!--ends div form-group-->
+	</div><!--end div row-->
+	<div class="row">
+		<div class="form-group">
 			<div class="col-md-4"></div>
-	  	<div class="form-group">
-	  		<div class="col-md-4">
-					<%=form_for @user do |f|%>
-						<%=f.label(:f_name, "First Name", class: 'required') %>
-						<%=f.text_field :f_name, class: 'form-control', :required => true %>
-				 </div><!--ends dive col-md-4-->
-			</div><!--ends div form-group-->
-		</div><!--end div row-->
-		<div class="row">
-			<div class="col-md-4"></div>
-			<div class="form-group">
-				<div class="col-md-4">
-						<%=f.label(:l_name, "Last Name", class: 'required')%>
-						<%=f.text_field :l_name, class: 'form-control', :required => true %>
-				</div><!--ends dive col-md-4-->
-			</div><!--ends div form-group-->
-		</div><!--end div row-->
-		<div class="row">
-			<div class="col-md-4"></div>
-			<div class="form-group">
-				<div class="col-md-4">
-						<%=f.label(:e_mail,"E-mail", class: 'required')%>
-						<%=f.text_field :e_mail, class: 'form-control', :required => true %>
-				</div><!--ends dive col-md-4-->
-			</div><!--ends div form-group-->
-		</div><!--end div row-->
-		<div class="row">
-			<div class="col-md-4"></div>
-			<div class="form-group">
-				<div class="col-md-4">
-						<%=f.label(:commitment, "I pledge to", class: 'required')%>
-						<%=f.text_area :commitment, class: 'form-control', rows: '5', :required => true %>
-				</div><!--ends dive col-md-4-->
-			</div><!--ends div form-group-->
-		</div><!--end div row-->
-		<div class="row">
-			<div class="col-md-4"></div>
-			<div class="form-group">
-				<div class="col-md-4">
-						<%=f.label(:org, "Organization", class: 'required')%>
-						<%=f.text_field :org, class: 'form-control', :required => true %>
-				</div><!--ends dive col-md-4-->
-			</div><!--ends div form-group-->
-		</div><!--end div row-->
-		<div class="row">
-			<div class="col-md-4"></div>
-			<div class="form-group">
-				<div class="col-md-4">
-						<%=fields_for :social_handle do |social_handle_field|%>
-							<%=social_handle_field.label(:twitter, "Twitter Handle")%>
-							<%=social_handle_field.text_field :twitter, class: 'form-control' %>
-				</div><!--ends dive col-md-4-->
-			</div><!--ends div form-group-->
-		</div><!--end div row-->
-		<div class="row">
-			<div class="col-md-4"></div>
-			<div class="form-group">
-				<div class="col-md-4">
-							<%=social_handle_field.label(:facebook, "Facebook Page")%>
-							<%=social_handle_field.text_field :facebook, class: 'form-control' %>
-				</div><!--ends dive col-md-4-->
-			</div><!--ends div form-group-->
-		</div><!--end div row-->
-		<div class="row">
-			<div class="col-md-4"></div>
-			<div class="form-group">
-				<div class="col-md-4">
-							<%=social_handle_field.label(:instagram, "Instagram")%>
-							<%=social_handle_field.text_field :instagram, class: 'form-control' %>
-						<%end%>
-				</div><!--ends dive col-md-4-->
-			</div><!--ends div form-group-->
-		</div><!--end div row-->
-		<div class="row">
-			<div class="form-group">
-				<div class="col-md-4"></div>
-				<div class="col-md-8">
-						<%= f.check_box :share_info, options = {:checked => true} %>
-						<%= f.label :share_info, "Share my contact information with partners Earth Day Initiative and General Assembly to stay up to date about their programs and events.", class: 'space' %>
-				</div><!--ends dive col-md-8-->
-			</div><!--ends div form-group-->
-		</div><!--end div row-->
-		<div class="row">
+			<div class="col-md-8">
+				<%= f.check_box :share_info, options = {:checked => true} %>
+				<%= f.label :share_info, "Share my contact information with partners Earth Day Initiative and General Assembly to stay up to date about their programs and events.", class: 'space' %>
+			</div><!--ends dive col-md-8-->
+		</div><!--ends div form-group-->
+	</div><!--end div row-->
+	<div class="row">
 		<div class="form-group">
 				<div class="col-md-4"></div>
 					<div class="col-md-8">
@@ -94,13 +94,13 @@
 				</div><!--ends dive col-md-8-->
 			</div><!--ends div form-group-->
 		</div><!--end div row-->
-		<div class="row">
+	<div class="row">
 		<div class="form-group">
 			<div class="col-md-4"></div>
 				<div class="col-md-4">
 						<%=f.submit "Submit", class: "btn btn-default" %>
 				</div><!--ends dive col-md-4-->
-			</div><!--ends div form-group-->
-			<%end%>
-		</div>
-	</div><!--ends div form-holder-->
+		</div><!--ends div form-group-->
+		<%end%>
+	</div>
+</div><!--ends div form-holder-->

@@ -1,4 +1,4 @@
-
+/*Sponsor img, footer for "Sponsors"*/
 
 img.sponsor {
   position: static;
@@ -26,6 +26,7 @@ img.footerlogo {
 footer {
   position: absolute;
   width: 100%;
+  bottom: 0;
   text-align: right;
   /*background: rgba(242,246,248,1);
   background: -moz-linear-gradient(left, rgba(242,246,248,1) 0%, rgba(181,198,208,0.65) 51%, rgba(224,239,249,0.31) 100%);
