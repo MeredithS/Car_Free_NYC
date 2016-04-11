@@ -15,7 +15,7 @@
  */
 
  h1.title {
-   padding-top: 175px;
+   padding-top: 250px;
    text-align: center;
    padding-bottom: 50px;
  }
@@ -61,6 +61,7 @@ a.btn {
   top: 50px;
 }
 
+
 img.car_less {
   bottom: 50px;
   position: relative;
@@ -73,7 +74,6 @@ img.car_less {
 
 img.sponsor {
   position: static;
-  padding-top: 175px;
   padding-left: 0px;
 }
 
