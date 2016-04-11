@@ -17,7 +17,7 @@
  h1.title {
    padding-top: 250px;
    text-align: center;
-   padding-bottom: 50px;
+   /*padding-bottom: 50px;*/
  }
 
 .adminnew {
@@ -27,7 +27,7 @@
 div.container {
   font-family: 'Nunito', sans-serif;
   position: static;
-  padding-bottom: 50px;
+  padding-bottom: 120px;
 }
 
 .listpledge {
